@@ -1,0 +1,28 @@
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+li{
+    list-style-type: square;
+    /* list-style-position: default outside  */
+    list-style-position: inside;
+    list-style-image: url(next.png);
+}
+
+a{
+    color: cornflowerblue;
+}
+/* seletor:subclasse */
+a:visited{
+    color: dodgerblue;
+}
+
+a:hover{
+    color:forestgreen;
+}
+
+a:link{
+    text-decoration: none;
+}
