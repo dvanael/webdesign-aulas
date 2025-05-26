@@ -1,0 +1,18 @@
+body{
+  /* background-image: url("img/bg.svg"); */
+  /* background-image: url("img/diatinf-bg.png"); */
+  background-image: url("img/diatinf-bg.png"), url("img/bg.svg");
+
+  /* controla repetição da imagem */
+  background-repeat: repeat-x, repeat;
+
+  /* controla a posição da imagem */
+  background-position: center, center;
+
+  /* bastante usado, largura da image = largura do dispositivo */
+  background-size: fill, auto;
+}
+
+h1{
+  background-image: linear-gradient(90deg,#c2c8f4, #ffffff);
+}
