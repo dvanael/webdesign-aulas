@@ -64,6 +64,10 @@ header h1 a {
     text-decoration: none;
 }
 
+header img {
+    max-width: 5em;
+}
+
 section {
     padding-bottom: 2em;
 }
