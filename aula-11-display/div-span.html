@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>div & span</title>
+  <style>
+    div{
+      background-color: aquamarine;
+    }
+    span{
+      background-color: lightcoral;
+    }
+  </style>
+</head>
+<body>
+  <!-- LICENÇA DIDATICA PARA USAR DIV -->
+  <div>
+    <!-- div. divisor 
+      não tem valor semântico, tem uso genérico e não especificio 
+      não há envio de informações de conteudo para motores de busca 
+      se comporta no CSS como `display: block`
+    -->
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ex quae fuga? Non officiis illum impedit? Corporis reprehenderit ipsum ut omnis voluptas! A sunt nemo ullam quas, magnam possimus corrupti.
+  </div>
+
+  <span>
+    <!-- span.
+      não tem valor semântico
+      usada para formatação de uma palavra ou um trecho de texto
+      se comporta no CSS como `display: inline`
+    -->
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis recusandae asperiores magnam laboriosam animi ut blanditiis sequi, maiores impedit. Ex maiores error sed adipisci fugiat libero ipsa, aut rem placeat.
+  </span>
+
+  <p>
+    <!-- 
+      b. bold text. texto negrito
+      mark. marcador de texto, amarelinho igual o marcador físico, tem seus valores próprios no CSS
+        mark {
+          background-color: mark;
+          color: marktext;
+        }  
+      span. formatação especifica
+    -->
+    <b>Lorem ipsum dolor</b> sit amet <mark>consectetur adipisicing elit.</mark> Excepturi voluptatum quaerat <span> quam saepe esse officia itaque expedita,</span> enim sapiente minima temporibus repellat dolorum pariatur aliquam numquam at voluptates ipsam eius.
+  </p>
+
+</body>
+</html>

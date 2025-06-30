@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Sizing</title>
+  <style>
+    main{
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 1em 2em;
+      background-color: lightgray;
+
+      box-sizing: border-box;
+      /* border-box. borda da caixa
+        fixa a largura (width, max, min) independente de outros valores (padding, margin, etc)
+        não modifica a largura do elemento, organiza o `padding`,`margin` e etc, para dentro da borda 
+      */
+
+      display: flex;
+      /* flex.
+        permite que os elementos fiquem um ao lado do outro, por padrão 
+      */
+      gap: 1em;
+      /* gap. vão
+        espaçamento entre os elementos do flex 
+      */
+    }
+    section{
+      border: 1px solid black;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <h2>Lorem ipsum</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio dolor distinctio quisquam nam consequatur doloribus minima dolores expedita cupiditate maxime est voluptatum odio tempore, tempora repellendus odit quia accusantium.
+      </p>
+    </section>
+
+    <section>
+      <h2>Lorem ipsum</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio dolor distinctio quisquam nam consequatur doloribus minima dolores expedita cupiditate maxime est voluptatum odio tempore, tempora repellendus odit quia accusantium.
+      </p>
+    </section>
+
+    <section>
+      <h2>Lorem ipsum</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio dolor distinctio quisquam nam consequatur doloribus minima dolores expedita cupiditate maxime est voluptatum odio tempore, tempora repellendus odit quia accusantium.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
