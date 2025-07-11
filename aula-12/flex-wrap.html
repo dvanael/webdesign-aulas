@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celulas Mescladas</title>
+  <style>
+    section{
+      display: flex;
+      flex-wrap: wrap;
+      background-color: lightgoldenrodyellow;
+    }
+    div{
+      /* border: .15em solid black; */
+      background-color: hotpink;
+      padding: 0 0.5em;
+    }
+    div.mesclada-100{
+      background-color: dodgerblue;
+      flex-basis: 100%;
+      /* flex-basis. define a largura flexivel do item
+      define a largura flexivel do item;
+      tem uma dependêcia do flex-wrap, só funciona com esse atributo 
+      */
+    }
+    div.mesclada-50{
+      background-color: lightseagreen;
+      flex-basis: 50%;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div>
+      <p>Célula</p>
+    </div>
+    
+    <div>
+      <p>Célula</p>
+    </div>
+    
+    <div class="mesclada-100">
+      <p>Célula 100%</p>
+    </div>
+    
+    <div>
+      <p>Célula</p>
+    </div>
+    
+    <div class="mesclada-50">
+      <p>Célula 50%</p>
+    </div>
+    
+    <div class="mesclada-100">
+      <p>Célula 100%</p>
+    </div>
+    
+    <div class="mesclada-50">
+      <p>Célula 50%</p>
+    </div>
+    
+  </section>
+</body>
+</html>
