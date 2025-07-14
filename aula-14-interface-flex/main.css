@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+	margin: 0 auto;
+	max-width: 80rem;
+}
+section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 1em;
+}
+section h2{
+	background-color: darksalmon;
+	flex-basis: 100%;
+}
+section div{
+	padding: 1.5em;
+	/* Quatro cards no container, 100/4 = 25 */
+	flex-basis: 25%;
+	background-color: aliceblue;
+	border: 2px solid #eee;
+	border-radius: 7px;
+	box-shadow: 0 0 5px #ccc;
+}
