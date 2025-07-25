@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div#container{
+  max-width: 70rem;
+  background-color: #dedede;
+  margin: 0 auto;
+  padding: 1rem;
+}
+header{
+  padding: 4rem;
+  background-image: url("image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: 1rem;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+main section{
+  flex-basis: 20%;
+  border: 2px solid #050505;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: aliceblue;
+}
+img{
+  width: 100%;
+}
+@media screen and (max-width: 1024px){
+  main{
+    background-color: lightcoral;
+  }
+  main section{
+    flex-basis: 45%;
+  }
+}
+/* media screen, max-width e min-width tem que ser com pixel */
+@media screen and (max-width: 480px){
+  main{
+    display: block;
+    background-color: aquamarine;
+  }
+  main section{
+    flex-basis: 100%;
+  }
+  header{
+    /* visibility: hidden. esconde apenas o conteúdo, deixando margin e padding */
+    /* visibility: hidden; */
+
+    /* display: none. esconde o elemento inteiro */
+    display: none;
+  };
+}
